@@ -1,5 +1,5 @@
 let id = 0
-const y = true, n = false
+const y = true,  n = false
 
 /** 長期計畫 type:
  id {int}
