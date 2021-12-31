@@ -1,0 +1,12 @@
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  @apply bg-gray-200;
+}
