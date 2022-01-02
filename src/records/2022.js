@@ -56,7 +56,7 @@ export default {
 			'02': [
 				{ id: d.sport.id, status: n, comment: '跟凌發同事出去露營' },
 				{ id: d.english.id, status: n, comment: '跟凌發同事出去露營' },
-				{ id: d.meditation.id, status: n, comment: '跟凌發同事出去露營' },
+				{ id: d.meditation.id, status: y, comment: '跟凌發同事出去露營' },
 				{ id: d.regularSchedule.id, status: n, comment: '跟凌發同事出去露營' },
 				{ id: d.program.id, status: n, comment: '跟凌發同事出去露營' },
 			],
