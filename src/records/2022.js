@@ -63,9 +63,9 @@ export default {
 			'03': [
 				{ id: d.sport.id, status: n },
 				{ id: d.english.id, status: n },
-				{ id: d.meditation.id, status: n },
+				{ id: d.meditation.id, status: y },
 				{ id: d.regularSchedule.id, status: n },
-				{ id: d.program.id, status: n },
+				{ id: d.program.id, status: y },
 			],
 		},
 	},
