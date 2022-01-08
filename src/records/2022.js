@@ -95,6 +95,13 @@ export default {
 				{ id: d.regularSchedule.id, status: n, comment: null },
 				{ id: d.program.id, status: n, comment: null },
 			],
+			'08': [
+				{ id: d.sport.id, status: n, comment: null },
+				{ id: d.english.id, status: n, comment: null },
+				{ id: d.meditation.id, status: y, comment: null },
+				{ id: d.regularSchedule.id, status: n, comment: '公司加班到一點多' },
+				{ id: d.program.id, status: n, comment: null },
+			],
 		},
 	},
 }
