@@ -15,6 +15,7 @@ const d = {
 	meditation: { id: ++id, name: '冥想', startDate: '2022-01-01', endDate: '2022-12-31' },
 	english: { id: ++id, name: '學英文', startDate: '2022-01-01', endDate: '2022-12-31' },
 	sport: { id: ++id, name: '運動', startDate: '2022-01-01', endDate: '2022-12-31' },
+	sport: { id: ++id, name: '讀書', startDate: '2022-01-16', endDate: '2022-12-31' },
 	program: { id: ++id, name: '寫程式', startDate: '2022-01-01', endDate: '2022-12-31', subs: {
 		flutter: { id: ++id, name: 'flutter', startDate: '2022-01-03' },
 		android: { id: ++id, name: 'android' },
@@ -142,6 +143,13 @@ export default {
 				{ id: d.english.id, status: n, comment: null },
 				{ id: d.meditation.id, status: y, comment: null },
 				{ id: d.regularSchedule.id, status: n, comment: '尾牙' },
+				{ id: d.program.id, status: y, comment: null },
+			],
+			'16': [
+				{ id: d.sport.id, status: n, comment: null },
+				{ id: d.english.id, status: n, comment: null },
+				{ id: d.meditation.id, status: y, comment: null },
+				{ id: d.regularSchedule.id, status: n, comment: null },
 				{ id: d.program.id, status: y, comment: null },
 			],
 		},
