@@ -152,6 +152,13 @@ export default {
 				{ id: d.regularSchedule.id, status: n, comment: null },
 				{ id: d.program.id, status: y, comment: null },
 			],
+			'17': [
+				{ id: d.sport.id, status: y, comment: null },
+				{ id: d.english.id, status: n, comment: null },
+				{ id: d.meditation.id, status: y, comment: null },
+				{ id: d.regularSchedule.id, status: n, comment: null },
+				{ id: d.program.id, status: n, comment: null },
+			],
 		},
 	},
 }
