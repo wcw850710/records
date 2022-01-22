@@ -179,6 +179,20 @@ export default {
 				{ id: d.program.id, status: n, comment: null },
 				{ id: d.read.id, status: y, comment: null },
 			],
+			'21': [
+				{ id: d.sport.id, status: n, comment: null },
+				{ id: d.english.id, status: n, comment: null },
+				{ id: d.meditation.id, status: y, comment: null },
+				{ id: d.program.id, status: y, comment: null },
+				{ id: d.read.id, status: y, comment: null },
+			],
+			'22': [
+				{ id: d.sport.id, status: n, comment: null },
+				{ id: d.english.id, status: n, comment: null },
+				{ id: d.meditation.id, status: y, comment: null },
+				{ id: d.program.id, status: n, comment: null },
+				{ id: d.read.id, status: y, comment: null },
+			],
 		},
 	},
 }
